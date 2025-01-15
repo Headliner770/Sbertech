@@ -243,8 +243,8 @@
 }
 
 .block-platform-img {
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 500px;
   border-radius: 700px;
 }
 
@@ -253,6 +253,7 @@
   height: 400px;
   border-radius: 700px;
   padding: 128px 32px;
+  margin: 0 0 96px;
   background-color: #1d1d1d;
   text-align: left;
   display: flex;
@@ -268,6 +269,15 @@
   font-size: 72px;
   color: #ffffff;
   margin: 0;
+}
+
+.column-tree {
+  display: flex;
+  flex-direction: row;
+}
+
+.company-facts {
+  margin: 48px 0;
 }
 
 @keyframes logo-spin {
@@ -291,4 +301,38 @@
 
 .read-the-docs {
   color: #888;
+}
+
+footer {
+  padding: 24px 0;
+  border-top: 1px solid rgba(29, 29, 29, 0.2);
+}
+
+.footer-main {
+  display: flex;
+  /* align-content: stretch; */
+  /* flex-grow: 5; */
+}
+
+.footer-logo-column {
+  flex: 3;
+  text-align: left;
+}
+
+.footer-link-block {
+  display: flex;
+  text-align: left;
+}
+
+.footer-company-column {
+  flex: 3;
+}
+
+.footer-vacancies-column {
+  flex: 3;
+}
+
+.footer-info-column {
+  flex: 3;
+  text-align: right;
 }
