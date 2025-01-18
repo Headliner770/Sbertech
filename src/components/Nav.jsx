@@ -4,8 +4,8 @@ import "../App.css";
 
 function Nav() {
   return (
-    <header class="header">
-      <div className="Container">
+    <header class="header-nav">
+      <div className="block-nav">
         <div className="NavLogo">
           <img src={stLogo} className="stLogo" alt="Лого" />
         </div>

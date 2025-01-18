@@ -8,6 +8,7 @@ import BlockCompany from "./components/BlockCompany";
 import BlockTeam from "./components/BlockTeam";
 import BlockPlatformV from "./components/BlockPlatformV";
 import stLogo from "./img/Logo.png";
+import Arrow from "./img/arrow.svg";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,74 +21,54 @@ function App() {
       <BlockTeam />
       <BlockPlatformV />
       <main>
-        {/* <section>
-          <div className="column-two">
-            2 Команда
-            <div className="column-one-title">
-              <h2 className="column-one-title-text">
-                Вместе создаем российские ИТ-продукты
-              </h2>
-              <div className="team-photo">
-                <div>
-                  <img src={Tyatyushev} alt="Максим Тятюшев" />
-                </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
+        <div className="block-products">
+          <div className="column-tree">
+            <div className="number">3</div>
+            <div className="column-tree-text">Продукты</div>
           </div>
-          <div className="column-one"></div>
-        </section> */}
 
-        <div className="column-tree">
-          <div>3 Продукты</div>
-
-          <div className="column-tree-title">
-            <h3 className="column-one-title-text">
+          <div className="block-products-title">
+            <h3 className="block-products-title-text">
               Наши продукты входят в Реестр российского ПО
             </h3>
-            <div className="box">
-              <div className="company-facts">
-                <div className="company-facts-number">
-                  <div className="company-facts-text">
-                    Мы занимаемся разработкой и сопровождением
-                    высокотехнологичного российского программного обеспечения
-                  </div>
-                  <div class="rounded-b-10 border-x border-b h-[14px] custom-border"></div>
+
+            <div className="block-product-facts">
+              <div className="block-product-fact">
+                <div className="block-product-facts-text">
+                  Мы занимаемся разработкой и сопровождением
+                  высокотехнологичного российского программного обеспечения
                 </div>
-                <div className="company-facts-number">
-                  <div className="company-facts-text">
-                    Наши продукты включены в единый реестр российских программ
-                    для ЭВМ
-                  </div>
-                  <div class="rounded-b-10 border-x border-b h-[14px] custom-border"></div>
+                <div class="curved-line-m"></div>
+              </div>
+              <div className="block-product-fact">
+                <div className="block-product-facts-text-mb">
+                  Наши продукты включены в единый реестр российских программ для
+                  ЭВМ
                 </div>
-                <div className="company-facts-number">
-                  <div className="company-facts-text">
-                    Более 50 программ продуктовой линейки Platform V
-                  </div>
-                  <div class="rounded-b-10 border-x border-b h-[14px] custom-border"></div>
+                <div class="curved-line-m"></div>
+              </div>
+              <div className="block-product-fact">
+                <div className="block-product-facts-text-mb">
+                  Более 50 программ продуктовой линейки Platform V
                 </div>
+                <div class="curved-line-m"></div>
+                
               </div>
             </div>
           </div>
         </div>
-        <div className="column-one"></div>
-        <div>
-          <a href="">
-            Подробнее
-            <div></div>
-          </a>
+
+        <div className="all-news-botton-mt">
+          <div className="all-news-arrow-botton">
+            <a href="#" className="all-news-botton">
+              <div className="all-news-text">Все продукты</div>
+              <div className="all-news-circle-botton">
+                <div className="all-news-arrow">
+                  <img src={Arrow} alt="Стрелка" />
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
 
         <div className="blocks-main">
@@ -128,16 +109,46 @@ function App() {
         </div>
         <div className="column-one"></div>
 
-        <div className="column-one">
-          5 Контакты
-          <div className="column-one-title">
-            <h3 className="column-one-title-text">
+        <div className="curved-line-l"></div>
+        <h3 className="sbertech-news">Новости СберТеха</h3>
+
+        <div className="all-news-botton-mt">
+          <div className="all-news-arrow-botton">
+            <a href="#" className="all-news-botton">
+              <div className="all-news-text">Все новости</div>
+              <div className="all-news-circle-botton">
+                <div className="all-news-arrow">
+                  <img src={Arrow} alt="Стрелка" />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div className="block-contacts">
+          <div className="column-five">
+            <div className="column-five-text">5 Контакты</div>
+          </div>
+
+          <div className="column-five-title">
+            <h3 className="column-five-title-text">
               Новоданиловская набережная, дом 10 +7 495 669 08 08
               info@sbertech.ru
             </h3>
           </div>
+          <div className="all-news-botton-mt">
+            <div className="all-news-arrow-botton">
+              <a href="#" className="all-news-botton">
+                <div className="all-news-text">Все офисы</div>
+                <div className="all-news-circle-botton">
+                  <div className="all-news-arrow">
+                    <img src={Arrow} alt="Стрелка" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="column-one"></div>
       </main>
 
       <footer>
