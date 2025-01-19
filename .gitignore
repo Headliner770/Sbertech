@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -23,7 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
+=======
 # Created by https://www.toptal.com/developers/gitignore/api/windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
@@ -54,4 +54,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
-
+>>>>>>> 69ccdb4913d4801bfdf488a197047fbd82df0891

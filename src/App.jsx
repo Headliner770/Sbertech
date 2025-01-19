@@ -11,8 +11,6 @@ import stLogo from "./img/Logo.png";
 import Arrow from "./img/arrow.svg";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Nav />
@@ -52,7 +50,6 @@ function App() {
                   Более 50 программ продуктовой линейки Platform V
                 </div>
                 <div class="curved-line-m"></div>
-                
               </div>
             </div>
           </div>
@@ -227,30 +224,6 @@ function App() {
           </div>
         </div>
       </footer>
-
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test !!!HMR!!!
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <div>
-        <h1>1111111111111111111111111111111111111111</h1>
-      </div>
     </>
   );
 }
