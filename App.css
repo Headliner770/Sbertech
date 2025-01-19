@@ -98,6 +98,18 @@
   padding: 24px 32px 32px;
   background-color: #0000c5;
   border: 1px solid #ccc;
+  margin-right: 2px;
+}
+
+.block-blue-title {
+  text-align: left;
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+
+.block-blue-details-title {
+  position: relative;
 }
 
 .block-green {
@@ -107,13 +119,7 @@
   padding: 24px 32px 32px;
   background-color: #27ae60;
   border: 1px solid #ccc;
-}
-
-.block-blue-title {
-  text-align: left;
-  font-size: 48px;
-  color: #ffffff;
-  margin: 0 0 12px;
+  
 }
 
 .block-green-title {
@@ -135,12 +141,18 @@
   color: #ffffff;
 }
 
-.blocks-details {
+.block-green-details-title {
+  display: flex;
+}
+
+.block-details {
   font-size: 16px;
   color: #ffffff;
   padding: 16px 24px;
   border: 2px solid white;
   border-radius: 30px;
+  /* bottom: -110px;  */
+  /* left: 0; */
 }
 
 .number {
