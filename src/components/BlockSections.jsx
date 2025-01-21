@@ -18,9 +18,11 @@ function BlockSections() {
           <div>
             <h4 className="block-blue-title">Аккредитованная ИТ-компания</h4>
             <p className="block-blue-text">АО «Сбербанк-Технологии»</p>
-            <a href="#" className="blocks-details">
-              Подробнее
-            </a>
+            <div className="block-blue-details-title">
+              <a href="#" className="block-details">
+                Подробнее
+              </a>
+            </div>
           </div>
         </div>
         <div className="block-green">
@@ -29,9 +31,11 @@ function BlockSections() {
             <p className="block-green-text">
               Разные города, специальности и форматы работы
             </p>
-            <a href="#" className="blocks-details">
-              Подробнее
-            </a>
+            <div className="block-green-details-title">
+              <a href="#" className="block-details">
+                Подробнее
+              </a>
+            </div>
           </div>
         </div>
       </div>
