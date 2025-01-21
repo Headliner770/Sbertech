@@ -6,10 +6,10 @@ function Nav() {
   return (
     <header class="header-nav">
       <div className="block-nav">
-        <div className="NavLogo">
+        <div className="navLogo">
           <img src={stLogo} className="stLogo" alt="Лого" />
         </div>
-        <div className="NavElements">
+        <div className="navElements">
           <a href="#">О компании</a>
           <a href="#">Вакансии</a>
           <a href="#">Команда</a>
