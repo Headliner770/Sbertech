@@ -42,7 +42,6 @@ function App() {
                 Стажировки и проекты Сбера, чтобы быстро влиться в команду
               </div>
               <div>arrow</div>
-              <div></div>
             </a>
             <a href="#" className="block-product-blue">
               <div className="block-product-blue-text">
