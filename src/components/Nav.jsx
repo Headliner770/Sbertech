@@ -1,25 +1,20 @@
-import React from "react";
 import stLogo from "../img/Logo.png";
-import "../App.css";
+import styles from "./nav.module.css";
+import { NAV_LINKS } from "../config/constants";
 
-function Nav() {
+export const Nav = () => {
   return (
-    <header class="header-nav">
-      <div className="block-nav">
-        <div className="navLogo">
-          <img src={stLogo} className="stLogo" alt="Лого" />
-        </div>
-        <div className="navElements">
-          <a href="#">О компании</a>
-          <a href="#">Вакансии</a>
-          <a href="#">Команда</a>
-          <a href="#">Программы в вузах</a>
-          <a href="#">Блог</a>
-          <a href="#">Контакты</a>
-        </div>
+    <header className={styles.header_nav}>
+      <div className="center">
+        <img src={stLogo} className={styles.stLogo} alt="Лого" />
+      </div>
+      <div className="navElements">
+        {NAV_LINKS.map((item) => (
+          <a key={item.href} href={item.href}>
+            {item.title}
+          </a>
+        ))}
       </div>
     </header>
   );
-}
-
-export default Nav;
+};

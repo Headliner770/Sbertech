@@ -1,4 +1,3 @@
-import React from "react";
 import block from "../img/block.webp";
 
 function BlockSections() {
@@ -15,17 +14,13 @@ function BlockSections() {
       </div>
       <div className="flex-block">
         <div className="block-blue">
-          <div>
-            <h4 className="block-blue-title">Аккредитованная ИТ-компания</h4>
-            <p className="block-blue-text">АО «Сбербанк-Технологии»</p>
-            <div className="block-blue-details-title">
-              <a href="#" className="block-details">
-                Подробнее
-              </a>
-            </div>
-          </div>
+          <h2 className="block-blue-title">Аккредитованная ИТ-компания</h2>
+          <p className="block-blue-text">АО «Сбербанк-Технологии»</p>
+          <a href="#" className="block-details">
+            Подробнее
+          </a>
         </div>
-        <div className="block-green">
+        {/* <div className="block-green">
           <div>
             <h4 className="block-green-title">Вакансии</h4>
             <p className="block-green-text">
@@ -37,7 +32,7 @@ function BlockSections() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
