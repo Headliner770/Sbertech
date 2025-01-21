@@ -1,17 +1,3 @@
-#root {
-  max-width: 1440px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.header-nav {
-  margin: 16px 0;
-}
-
-.stLogo {
-  width: 202px;
-}
-
 .navLogo {
   display: flex;
   align-items: center;
@@ -22,14 +8,6 @@
   display: flex;
   align-items: center;
   font-size: 18px;
-}
-
-.block-nav {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1440px;
-  margin: 0 auto;
-  /* padding: 10px; */
 }
 
 .blocks-main {
@@ -88,28 +66,28 @@
 
 .flex-block {
   display: flex;
-  width: 100%;
 }
 
 .block-blue {
-  flex: 1;
-  height: 247px;
+  /* flex: 1; */
+  /* height: 247px; */
   border-radius: 60px;
   padding: 24px 32px 32px;
   background-color: #0000c5;
   border: 1px solid #ccc;
   margin-right: 2px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: right;
+  gap: 20px;
 }
 
 .block-blue-title {
-  text-align: left;
   font-size: 48px;
   color: #ffffff;
-  margin: 0 0 12px;
-}
-
-.block-blue-details-title {
-  position: relative;
+  margin: 0;
 }
 
 .block-green {
@@ -131,7 +109,8 @@
 .block-blue-text {
   text-align: left;
   font-size: 18px;
-  color: #ffffff;
+  color: #fff;
+  margin: 0;
 }
 
 .block-green-text {
@@ -145,13 +124,14 @@
 }
 
 .block-details {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
   font-size: 16px;
   color: #ffffff;
   padding: 16px 24px;
   border: 2px solid white;
   border-radius: 30px;
-  /* bottom: -110px;  */
-  /* left: 0; */
 }
 
 .number {
@@ -275,15 +255,15 @@
   display: flex;
   margin: 24px 24px 0 0;
   text-align: left;
-  flex: 10;
+  /* flex: 10; */
 }
 
-.team-photo-block {
+/* .team-photo-block {
   width: 8.333%;
   position: relative;
   margin: 10px;
   overflow: hidden;
-}
+} */
 
 .image {
   left: 20px;
@@ -299,8 +279,13 @@
   filter: grayscale(0);
 }
 
+.team-block {
+  position: relative;
+  overflow: visible;
+}
+
 .team-block:hover .hidden-text {
-  opacity: 1; /* показ текста при навед */
+  display: block;
 }
 
 .block-platform-img {
@@ -315,9 +300,10 @@
   position: absolute;
   left: 0;
   right: 0;
+  width: 500px;
   color: black;
-  text-align: center;
-  opacity: 0; /* скрыть текст */
+  /* text-align: center; */
+  display: none;
   transition: opacity 0.3s;
 }
 
@@ -468,10 +454,6 @@
   font-size: 18px;
   color: #ffffff;
   font-weight: 600;
-}
-
-.block-blue-title {
-  color: #ffffff;
 }
 
 .block-blue-text-p {

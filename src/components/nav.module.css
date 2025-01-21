@@ -1,0 +1,11 @@
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.stLogo {
+  width: 202px;
+  aspect-ratio: 5.8;
+}
+

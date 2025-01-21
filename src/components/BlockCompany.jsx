@@ -1,4 +1,3 @@
-import React from "react";
 import Arrow from "../img/arrow.svg";
 
 function BlockCompany() {
@@ -16,34 +15,34 @@ function BlockCompany() {
         <div className="company-facts">
           <div className="company-facts-number">
             13<div className="company-facts-text">лет компании</div>
-            <div class="curved-line-m"></div>
+            <div className="curved-line-m"></div>
           </div>
           <div className="company-facts-number">
             2600<div className="company-facts-text">сотрудников</div>
-            <div class="curved-line-m"></div>
+            <div className="curved-line-m"></div>
           </div>
           <div className="company-facts-number">
             20<div className="company-facts-text">городов</div>
-            <div class="curved-line-m"></div>
+            <div className="curved-line-m"></div>
           </div>
           <div className="company-facts-number">
             620+
             <div className="company-facts-text">
               приложений Сбера работают на платформе
             </div>
-            <div class="curved-line-m"></div>
+            <div className="curved-line-m"></div>
           </div>
           <div className="company-facts-number">
             ~50
             <div className="company-facts-text">внутренних митапов в год</div>
-            <div class="curved-line-m"></div>
+            <div className="curved-line-m"></div>
           </div>
           <div className="company-facts-number">
             ~200
             <div className="company-facts-text">
               разработчиков участвуют в митапах
             </div>
-            <div class="curved-line-m"></div>
+            <div className="curved-line-m"></div>
           </div>
         </div>
         <div className="all-news-botton-mt">

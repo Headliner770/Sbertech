@@ -1,6 +1,4 @@
-import { useState } from "react";
-
-import Nav from "./components/nav";
+import { Nav } from "./components/Nav";
 import BlockSections from "./components/BlockSections";
 import BlockCompany from "./components/BlockCompany";
 import BlockTeam from "./components/BlockTeam";
@@ -15,12 +13,13 @@ function App() {
   return (
     <>
       <Nav />
-      <BlockSections />
-      <BlockCompany />
-      <BlockTeam />
-      <BlockPlatformV />
-      <BlockProducts />
       <main>
+        <BlockSections />
+        <BlockCompany />
+        <BlockTeam />
+        <BlockPlatformV />
+        <BlockProducts />
+
         <div className="all-news-botton-mt">
           <div className="all-news-arrow-botton">
             <a href="#" className="all-news-botton">
@@ -85,9 +84,9 @@ function App() {
             </a>
           </div>
         </div>
-      </main>
 
-      <BlockContacts />
+        <BlockContacts />
+      </main>
       <Footer />
     </>
   );
